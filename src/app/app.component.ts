@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HolidayService } from './services/holiday.service';
+import { Holiday } from './interfaces/holiday';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'holidays';
+  title: string = 'Hong Kong General Holidays for 2020';
+  holidays: Holiday[];
+
+  constructor(private holidayService: HolidayService) {
+    this.holidays = this.getHolidays()
+  }
+
+  getHolidays(): Holiday[] {
+    return this.holidayService.getHolidays();
+  }
 }
