@@ -8,7 +8,7 @@ import { Holiday } from './interfaces/holiday';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Hong Kong General Holidays for 2020';
+  title: string = 'Hong Kong General Holidays for 2021';
   holidays: Holiday[];
 
   constructor(private holidayService: HolidayService) {

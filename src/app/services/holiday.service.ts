@@ -6,23 +6,23 @@ import { Holiday } from '../interfaces/holiday';
 })
 export class HolidayService {
   holidays: Holiday[] = [
-    { holiday: 'The first day of January', date: new Date(2020, 0, 1) },
-    { holiday: 'Lunar New Year\'s Day', date: new Date(2020, 0, 25) },
-    { holiday: 'The third day of Lunar New Year', date: new Date(2020, 0, 27) },
-    { holiday: 'The fourth day of Lunar New Year', date: new Date(2020, 0, 28) },
-    { holiday: 'Ching Ming Festival', date: new Date(2020, 3, 4) },
-    { holiday: 'Good Friday', date: new Date(2020, 3, 10) },
-    { holiday: 'The day following Good Friday', date: new Date(2020, 3, 11) },
-    { holiday: 'Easter Monday', date: new Date(2020, 3, 13) },
-    { holiday: 'Birthday of the Buddha', date: new Date(2020, 3, 30) },
-    { holiday: 'Labour Day', date: new Date(2020, 4, 1) },
-    { holiday: 'Tuen Ng Festival', date: new Date(2020, 5, 25) },
-    { holiday: 'Hong Kong Special Administrative Region Establishment Day', date: new Date(2020, 6, 1) },
-    { holiday: 'National Day', date: new Date(2020, 9, 1) },
-    { holiday: 'The day following the Chinese Mid-Autumn Festival', date: new Date(2020, 9, 2) },
-    { holiday: 'The day following Chung Yeung Festival', date: new Date(2020, 9, 26) },
-    { holiday: 'Christmas Day', date: new Date(2020, 11, 25) },
-    { holiday: 'The first weekday after Christmas Day', date: new Date(2020, 11, 26) }
+    { holiday: '一月一日', date: new Date(2021, 0, 1) },
+    { holiday: '農曆年初一', date: new Date(2021, 1, 12) },
+    { holiday: '農曆年初二', date: new Date(2021, 1, 13) },
+    { holiday: '農曆年初四', date: new Date(2021, 1, 15) },
+    { holiday: '耶穌受難節', date: new Date(2021, 3, 2) },
+    { holiday: '耶穌受難節翌日', date: new Date(2021, 3, 3) },
+    { holiday: '清明節翌日', date: new Date(2021, 3, 5) },
+    { holiday: '復活節星期一翌日', date: new Date(2021, 3, 6) },
+    { holiday: '勞動節', date: new Date(2021, 4, 1) },
+    { holiday: '佛誕', date: new Date(2021, 4, 19) },
+    { holiday: '端午節', date: new Date(2021, 5, 14) },
+    { holiday: '香港特別行政區成立紀念日', date: new Date(2021, 6, 1) },
+    { holiday: '中秋節翌日', date: new Date(2021, 8, 22) },
+    { holiday: '國慶日', date: new Date(2021, 9, 1) },
+    { holiday: '重陽節', date: new Date(2021, 9, 14) },
+    { holiday: '聖誕節', date: new Date(2021, 11, 25) },
+    { holiday: '聖誕節後第一個周日', date: new Date(2021, 11, 27) }
   ];
 
   constructor() { }
